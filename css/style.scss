@@ -8,9 +8,27 @@ body{
   .container-fluid{
     margin-left: 5%;
     margin-right: 5%;
+
     .chart rect {
         fill: steelblue;
+        &:hover{
+          fill: orange;
+        }
       }
+      .axis text {
+        font: 12px sans-serif;
+        fill: white;
+        }
+
+        .axis path,
+        .axis line {
+        fill: none;
+        stroke: white;
+        shape-rendering: crispEdges;
+        }
+
+
+
       #info{
         margin-top: 30px;
         color:white;
