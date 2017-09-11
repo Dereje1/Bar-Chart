@@ -22,6 +22,7 @@ let toolTipDiv = d3.select("body").append("div")//toolTip div definition, defini
             .attr("class", "toolTip")
             .style("position", "absolute")
             .style("color", "darkgreen")
+            .style("padding", "5px")
             .style("background-color", "white")
             .style("font-size", "24px")
             .style("border-radius", "3px");
